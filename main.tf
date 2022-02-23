@@ -13,11 +13,6 @@ terraform {
   }
 }
 
-
-
-
-
-
 resource "aws_security_group" "docker" {
   name        = "docker-security-group"
   description = "Allow HTTP, HTTPS and SSH traffic"
